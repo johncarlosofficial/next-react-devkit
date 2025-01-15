@@ -2,6 +2,7 @@
   "scripts": {
     "dev": "npm run services:up && next dev",
     "test": "jest --runInBand --verbose",
+    "lint:eslint:check": "next lint --dir .",
     "lint:prettier:check": "prettier --check .",
     "lint:prettier:fix": "prettier --write .",
     "test:watch": "jest --runInBand --verbose --watch",
