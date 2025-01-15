@@ -1,7 +1,7 @@
 import { Client, QueryConfig, QueryResult } from "pg";
 
 async function query(
-  queryObject: string | QueryConfig
+  queryObject: string | QueryConfig,
 ): Promise<QueryResult<any>> {
   let client: Client | undefined;
   try {

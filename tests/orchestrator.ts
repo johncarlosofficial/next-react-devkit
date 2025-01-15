@@ -17,7 +17,7 @@ async function waitForWebServer(url: string): Promise<void> {
         throw new Error("Web server is not ready yet.");
       }
     },
-    { retries: MAX_RETRIES, maxTimeout: MAX_TIMEOUT }
+    { retries: MAX_RETRIES, maxTimeout: MAX_TIMEOUT },
   );
 }
 
